@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class consumption {
 	public static void main(String [] args) {
 		
-		// Recebe o tipo de Instalção
+		// Recebe o tipo de Instalação
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Qual tipo de instalação? (R), (I) ou (T): ");
 		String insta = scanner.nextLine();		

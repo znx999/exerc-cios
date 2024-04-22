@@ -42,8 +42,10 @@ public class consumption {
 				preco = 0.6;
 			}
 			
-			System.out.println("O valor: " + (kwh * preco));			
+			System.out.println("O valor: " + (kwh * preco));		
+			
 		} else {
+			
 			System.out.println("Tipo de instalação inválida. ");
 		}
 		

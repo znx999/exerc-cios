@@ -17,8 +17,6 @@ public class triangulo {
 		System.out.print("Digite o vlor 2: ");
 		int t3 = scanner.nextInt();
 		
-		scanner.close();
-		
 		if (t1 > 0 && t2 > 0 && t3 > 0 && (t1 + t2 > t3 && t1 + t3 > t2 && t2 + t3 > t1) ) {
 			if (t1 != t2 && t1 != t3 && t2 != t3) {
 			System.out.print("É um triangulo escaleno! ");
@@ -30,6 +28,8 @@ public class triangulo {
 		} else {
 			System.out.print("Ao menos um dos valores indicados não servem para formar um triangulo!");
 		}
+		
+		scanner.close();
 	}
 
 }

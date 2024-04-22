@@ -6,15 +6,15 @@ public class triangulo {
 	public static void main(String [] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("Digite o vlor 1: ");
+		System.out.print("Digite o valor 1: ");
 		int t1 = scanner.nextInt();
 		
 		
-		System.out.print("Digite o vlor 3: ");
+		System.out.print("Digite o valor 2: ");
 		int t2 = scanner.nextInt();
 		
 		
-		System.out.print("Digite o vlor 2: ");
+		System.out.print("Digite o valor 3: ");
 		int t3 = scanner.nextInt();
 		
 		if (t1 > 0 && t2 > 0 && t3 > 0 && (t1 + t2 > t3 && t1 + t3 > t2 && t2 + t3 > t1) ) {
